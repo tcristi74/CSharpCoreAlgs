@@ -23,8 +23,8 @@ namespace AlgCSharp.Knapsack
         {
             // Create arrays for keeping track of the maximum value for each sub-solution
             // and which items to include, respectively:
-            var maxValues = (int[,])Array.CreateInstance(typeof(int), items.Count + 1, capacity + 1);
-            var doInclude = (bool[,])Array.CreateInstance(typeof(bool), items.Count + 1, capacity + 1);
+            var maxValues = (int[,]) System.Array.CreateInstance(typeof(int), items.Count + 1, capacity + 1);
+            var doInclude = (bool[,])System.Array.CreateInstance(typeof(bool), items.Count + 1, capacity + 1);
             
             // Notice, that at this point, both arrays are initialized with 0's and false, respectively.
 

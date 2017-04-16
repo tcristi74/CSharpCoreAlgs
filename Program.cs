@@ -1,6 +1,7 @@
 ﻿using System;
 using AlgCSharp.NestedList;
 using AlgCSharp.Stack;
+using AlgCSharp.Triangle;
 
 namespace AlgCSharp
 {
@@ -14,9 +15,9 @@ namespace AlgCSharp
             // ms.DoMergeSort();  
             // StackFromQueueTest test  = new StackFromQueueTest();
             // test.TestStackFromQueue();
-            
-            NestedListTest test = new NestedListTest();
-            test.TestNestedList();
+            AlgCSharp.Triangle.MaxTriangles t;
+            t = new MaxTriangles(new int[] {6,9,7,10,14,16});
+            var ret=t.getMaxTriangles();;
 
         }
     }
