@@ -64,14 +64,14 @@ namespace AlgCSharp.PolishNotation {
         }
     }
 
-    [TestClass]
+   // [TestClass]
     public class PolishReverseTest {
 
         [TestMethod]
         public void TestEvalRPN () {
             PolishReverse pr = new PolishReverse ();
             var ret = pr.EvalRPN (new [] { "6", "7", "9", "+", "2","-","*" });
-            Assert.AreEqual (ret, 9, "values are not equal");
+            Assert.AreEqual (ret, 84, "values are not equal");
             Console.WriteLine ("----------Polish reverse done-------");
         }
     }

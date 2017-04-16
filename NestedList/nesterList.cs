@@ -77,7 +77,7 @@ namespace AlgCSharp.NestedList {
         }
     }
 
-    [TestClass]
+  //  [TestClass]
     public class NestedListTest {
 
         [TestMethod]
