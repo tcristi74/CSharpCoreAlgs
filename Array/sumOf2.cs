@@ -52,7 +52,7 @@ namespace AlgCSharp.Array {
     }
 
 
-    [TestClass]
+  //  [TestClass]
     public class SumOf2Test{
 
         [TestMethod]
